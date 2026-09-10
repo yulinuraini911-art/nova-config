@@ -9,9 +9,9 @@
   "title": "Mahjong Nova",
   "event_sdk": {
     "google": {
-      "is_active": false,
-      "is_debug_view_enabled": true,
-      "gtm_is_active": false
+      "is_active": true,
+      "is_debug_view_enabled": false,
+      "gtm_is_active": true
     },
     "meta": {
       "is_active": false,
