@@ -1,11 +1,30 @@
 {
-  "title": "Mahjong Nova",
   "is_ads_enabled": true,
   "show_on_first_open": true,
   "skip_duration_seconds": 10,
+  "trigger_strategy": "after_seconds",
   "trigger_clicks_count": 3,
   "trigger_seconds_delay": 259200,
-  "trigger_strategy": "after_seconds",
   "active_campaigns": [],
-  "id": "com.novagame.mahjong"
+  "title": "Mahjong Nova",
+  "event_sdk": {
+    "google": {
+      "is_active": false,
+      "is_debug_view_enabled": true,
+      "gtm_is_active": false
+    },
+    "meta": {
+      "is_active": false,
+      "meta_app_id": "",
+      "meta_client_token": ""
+    },
+    "tiktok": {
+      "is_active": false,
+      "android_id": "",
+      "android_tiktok_id": "",
+      "apple_id": "",
+      "apple_tiktok_id": "",
+      "stage": "sandbox"
+    }
+  }
 }
