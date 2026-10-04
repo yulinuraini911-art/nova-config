@@ -7,12 +7,12 @@
   "trigger_seconds_delay": 259200,
   "active_campaigns": [
     {
+      "open_target_in": "external",
+      "schedule_end": "23:59",
+      "is_active": false,
       "campaign_id": "5pWGdZX7I9xbIgB5GV8H",
       "weight": 50,
-      "is_active": false,
       "schedule_start": "00:00",
-      "schedule_end": "23:59",
-      "open_target_in": "external",
       "title": "test",
       "ad_type": "image",
       "media_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReDXzuHe0IoL4fRQjoecV-8fy6-ai5KUQADfvCoUdCew&s=10",
