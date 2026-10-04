@@ -5,12 +5,26 @@
   "trigger_strategy": "after_seconds",
   "trigger_clicks_count": 10000,
   "trigger_seconds_delay": 259200,
-  "active_campaigns": [],
+  "active_campaigns": [
+    {
+      "campaign_id": "5pWGdZX7I9xbIgB5GV8H",
+      "weight": 50,
+      "is_active": true,
+      "schedule_start": "00:00",
+      "schedule_end": "23:59",
+      "open_target_in": "external",
+      "title": "test",
+      "ad_type": "image",
+      "media_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReDXzuHe0IoL4fRQjoecV-8fy6-ai5KUQADfvCoUdCew&s=10",
+      "target_url": "https://www.lazada.co.id/products/test-produk-do-not-order-light-i8803500041.html",
+      "button_text": "test"
+    }
+  ],
   "event_sdk": {
     "google": {
-      "is_active": false,
+      "is_active": true,
       "is_debug_view_enabled": true,
-      "gtm_is_active": false
+      "gtm_is_active": true
     },
     "meta": {
       "is_active": false,
