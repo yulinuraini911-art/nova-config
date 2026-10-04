@@ -6,7 +6,6 @@
   "trigger_clicks_count": 10000,
   "trigger_seconds_delay": 259200,
   "active_campaigns": [],
-  "title": "Mahjong Nova",
   "event_sdk": {
     "google": {
       "is_active": false,
@@ -27,5 +26,6 @@
       "stage": "sandbox"
     }
   },
-  "icon_url": ""
+  "icon_url": "",
+  "title": "Mahjong Nova"
 }
